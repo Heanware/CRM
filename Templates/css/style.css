@@ -1,0 +1,97 @@
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	outline:0px;
+}
+a{
+	text-decoration: none;
+	outline:none;
+	color: red;
+}
+
+
+/* SINGLE POST */
+
+
+.post-body{
+	background-color: rgba(220,223,226, .4);
+	margin:auto;
+	width: 80%;
+	padding: 50px 20px;
+}
+.post-title{
+	text-align: center;
+	padding: 20px 10px;
+}
+.post-description{
+	text-align: center;
+	padding:10px 10px;
+}
+.post-image{
+	text-align: center;
+}
+.post-image img{
+	width: 60%;
+}
+.post-text{
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+/* BOARD WITH ALL POSTS */
+.board-info{
+	display: flex;	
+}
+.board-title{
+	width: 40%;
+	text-align: center;
+}
+.board-last{
+	width: 40%;
+	text-align: center;
+}
+.post-info{
+	height: 50px;
+	background-color: rgba(220,223,226, .6);
+	margin-bottom: 10px;
+}
+.board-post{
+	background-color: rgba(220,223,226, .6);
+	padding: 10px 20px;
+	display: flex;
+	margin-bottom: 20px;
+}
+.board-post-title{
+	text-align: center;
+}
+.board-post-info{
+	width: 40%;
+}
+.board-post-count{
+	width: 20%;
+	margin: auto;
+	text-align: center;
+}
+.board-post-image{
+	width: 20%;
+}
+.board-post-image img{
+	width: 100%;
+	float: right;
+}
+
+/* POST ADDING PAGE */
+
+.post-adding{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.post-adding input{
+	border: 1px solid black;
+	width: 20%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
